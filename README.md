@@ -32,5 +32,7 @@ This shows that the model developed has good performance in classifying sentimen
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/ef9328d1-eee3-40be-ba9e-32502e492019" />
 
 ## Neutral Labels
+<img width="388" alt="image" src="https://github.com/user-attachments/assets/e16d600f-123d-43e3-b555-5186f8de39d7" />
+
 
 
