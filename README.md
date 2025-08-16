@@ -1,6 +1,6 @@
 # 🧊🏺🍸 Sentiment-Analysis 🍸🏺🧊
 
-## 🧊🏺🍸 Criteria 🍸🏺🧊
+## 🧊🏺🍸 Criteria of Program 🍸🏺🧊
 
 **Criteria 1**: Data is the result of independent scraping
 You are given the freedom to take data or scraping using the Python programming language from various sources, such as the PlayStore platform, X, Instagram, comments on product ratings on e-commerce, and others. The minimum number of datasets that must be obtained is 3,000 samples.
