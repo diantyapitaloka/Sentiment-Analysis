@@ -1,5 +1,7 @@
 # 🧊🏺🍸 Sentiment-Analysis 🍸🏺🧊
 
+The program including data cleansing and some criteria to match the requirement:
+
 ## 🧊🏺🍸 Criteria of Program 🍸🏺🧊
 
 **Criteria 1**: Data is the result of independent scraping
