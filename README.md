@@ -1,6 +1,6 @@
 # 🧊🏺🍸 Sentiment-Analysis 🍸🏺🧊
 
-The program including data cleansing and some criteria to match the requirement. Sentiment Analysis, also known as opinion mining, is a field within Natural Language Processing (NLP) that aims to determine the attitude or emotional tone expressed in a piece of text.
+The program including data cleansing and some criteria to match the requirement. Sentiment Analysis, also known as opinion mining, is a field within Natural Language Processing (NLP) that aims to determine the attitude or emotional tone expressed in a piece of text. Sentiment analysis typically involves classifying text into categories such as positive, negative, or neutral by leveraging machine learning or deep learning models. Before building these models, data cleansing plays a crucial role to ensure the quality and consistency of the dataset. Common preprocessing steps include removing noise (such as punctuation, HTML tags, and stopwords), normalizing text through case-folding and lemmatization, and handling duplicated or missing data. These steps help the model understand the underlying patterns more effectively and reduce the risk of misclassification.
 
 ## 🧊🏺🍸 Criteria of Program 🍸🏺🧊
 
