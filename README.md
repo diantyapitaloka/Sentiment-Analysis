@@ -17,6 +17,7 @@ The choice of this training algorithm must be in accordance with the objectives 
 This shows that the model developed has good performance in classifying sentiment from the data provided.
 
 ## 🧊🏺🍸 Submission 🍸🏺🧊
+The submission consists of developing and evaluating a deep learning–based classification system that fulfills the following criteria:
 
 1. Using deep learning algorithms.
 2. Accuracy on training set and testing set above 92%.
