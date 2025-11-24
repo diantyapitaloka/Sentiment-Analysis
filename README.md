@@ -9,6 +9,8 @@ The program including data cleansing and some criteria to match the requirement.
 ## 🧊🏺🍸 Criteria of Program 🍸🏺🧊
 Criteria of Program refers to the specific standards, requirements, or indicators used to evaluate whether a program is designed and implemented effectively. These criteria help assess the quality of the program’s inputs (resources, participants), processes (methods, activities), outputs (immediate results), and outcomes (long-term impact). By setting clear program criteria, organizations can ensure consistent measurement, maintain quality, and determine whether the program successfully achieves its intended goals.
 
+Criteria of Program are the established standards or requirements used to evaluate the quality, effectiveness, and success of a program in achieving its intended objectives.
+
 **Criteria 1**: Data is the result of independent scraping
 You are given the freedom to take data or scraping using the Python programming language from various sources, such as the PlayStore platform, X, Instagram, comments on product ratings on e-commerce, and others. The minimum number of datasets that must be obtained is 3,000 samples.
 
