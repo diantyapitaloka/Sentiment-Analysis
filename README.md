@@ -45,6 +45,8 @@ The output shown below:
 
 ## 🧊🏺🍸 Neutral Labels 🍸🏺🧊
 Neutral Labels refer to categories or classifications used in a dataset, survey, or labeling task that do not express either a positive or negative stance. They are meant to represent a neutral, objective, or indifferent tone.
+
+In sentiment analysis, for example, a statement like “The meeting starts at 9 AM” is neutral because it simply provides information without emotional tone. In surveys or customer feedback systems, neutral labels capture responses where the participant feels indifferent or undecided. Similarly, in classification tasks like hate-speech detection, a neutral label might categorize text that contains no harmful or targeted language.
 <img width="388" alt="image" src="https://github.com/user-attachments/assets/e16d600f-123d-43e3-b555-5186f8de39d7" />
 
 
