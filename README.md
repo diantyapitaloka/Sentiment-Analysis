@@ -44,6 +44,7 @@ The output shown below:
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/ef9328d1-eee3-40be-ba9e-32502e492019" />
 
 ## 🧊🏺🍸 Neutral Labels 🍸🏺🧊
+Neutral Labels refer to categories or classifications used in a dataset, survey, or labeling task that do not express either a positive or negative stance. They are meant to represent a neutral, objective, or indifferent tone.
 <img width="388" alt="image" src="https://github.com/user-attachments/assets/e16d600f-123d-43e3-b555-5186f8de39d7" />
 
 
