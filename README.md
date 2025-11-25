@@ -33,6 +33,8 @@ The submission consists of developing and evaluating a deep learning–based cla
 5. Conducting 3 different training scheme experiments. These schemes can be distinguished from variations in training algorithms, feature extraction methods, labeling, and data division by selecting at least 2 combinations.
 
 ## 🧊🏺🍸 Output 🍸🏺🧊
+
+The output shown below:
 <img width="427" alt="image" src="https://github.com/user-attachments/assets/fce51649-0d6f-40c6-a2f7-ebdad92c0448" />
 
 ## 🧊🏺🍸 Positive Labels 🍸🏺🧊
