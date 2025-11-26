@@ -44,6 +44,8 @@ The output shown below:
 
 In Artificial Intelligence (AI) and Machine Learning, negative labels are classifications assigned to data samples that indicate the absence of a target attribute, an undesirable condition, or a harmful outcome. They are used to distinguish items that should not be selected, recommended, or identified as positive cases.
 
+For example, in sentiment analysis, a negative label may mark sentences expressing dissatisfaction or criticism. In fraud detection, negative labels represent legitimate transactions that should not trigger alerts. These labels are essential for supervised learning models, as they help the algorithm learn the difference between correct and incorrect predictions during training.
+
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/ef9328d1-eee3-40be-ba9e-32502e492019" />
 
 ## 🧊🏺🍸 Neutral Labels 🍸🏺🧊
