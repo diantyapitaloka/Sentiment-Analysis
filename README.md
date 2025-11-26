@@ -41,6 +41,9 @@ The output shown below:
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/1afe259d-7e77-405b-97d4-5f60796c2918" />
 
 ## 🧊🏺🍸 Negative Labels 🍸🏺🧊
+
+In Artificial Intelligence (AI) and Machine Learning, negative labels are classifications assigned to data samples that indicate the absence of a target attribute, an undesirable condition, or a harmful outcome. They are used to distinguish items that should not be selected, recommended, or identified as positive cases.
+
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/ef9328d1-eee3-40be-ba9e-32502e492019" />
 
 ## 🧊🏺🍸 Neutral Labels 🍸🏺🧊
