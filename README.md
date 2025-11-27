@@ -16,6 +16,8 @@ Criteria of Program are the established standards or requirements used to evalua
 **Criteria 1**: Data is the result of independent scraping
 You are given the freedom to take data or scraping using the Python programming language from various sources, such as the PlayStore platform, X, Instagram, comments on product ratings on e-commerce, and others. The minimum number of datasets that must be obtained is 3,000 samples.
 
+Classified as below:
+
 **Criteria 2**: Carrying out the stages of feature extraction and data labeling
 The method used is free according to the preferences of each participant. This stage is important to prepare data so that it can be further processed in the model training process.
 
