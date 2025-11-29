@@ -63,3 +63,5 @@ Neutral labels are essential because they help improve the accuracy and reliabil
 
 
 
+## 🧊🏺🍸 Licences 🍸🏺🧊
+Copyright by Diantya Pitaloka
