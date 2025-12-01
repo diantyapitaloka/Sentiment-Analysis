@@ -4,6 +4,8 @@ The program including data cleansing and some criteria to match the requirement.
 
 Sentiment Analysis — also known as opinion mining — is a subfield of Natural Language Processing (NLP) and Artificial Intelligence (AI) that focuses on identifying, extracting, and interpreting the emotional tone or subjective information expressed in text, speech, or other communication. Its main purpose is to determine whether the sentiment conveyed is positive, negative, or neutral, but advanced systems may also detect more detailed emotions such as joy, anger, sadness, or sarcasm.
 
+Sentiment analysis works by using various AI techniques such as machine learning, deep learning, and linguistic rule-based approaches to analyze words, expressions, and context. It plays a crucial role in real-world applications, including customer feedback evaluation, social media monitoring, brand reputation analysis, product reviews classification, political opinion tracking, and automated customer support. By transforming unstructured text data into structured insights, sentiment analysis helps organizations understand public perception, improve decision-making, and enhance user experience at a large scale.
+
 Classified as below:
 
 - In building a sentiment analysis system, datasets need to meet several criteria to ensure the model's reliability and performance. This includes having a sufficiently large dataset—ideally above 10,000 samples—to allow for better generalization and training stability.
