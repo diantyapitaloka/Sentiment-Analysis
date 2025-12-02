@@ -49,6 +49,8 @@ The output shown below:
 
 In Artificial Intelligence (AI)—especially in classification and machine learning tasks—Positive Labels refer to the class or category that the model is specifically trying to identify or detect.
 
+In Artificial Intelligence, especially in Machine Learning and Deep Learning, the term Positive Labels refers to a category or class that represents the target outcome or desired condition in a dataset.
+
 A positive label is the target outcome that represents the presence of a specific condition, event, or class of interest. It is the “yes” class in a binary classification problem, or one of the target classes in multi-class tasks. The model’s main goal is often to correctly predict when this positive condition exists.
 
 
