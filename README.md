@@ -46,6 +46,10 @@ The output shown below:
 <img width="427" alt="image" src="https://github.com/user-attachments/assets/fce51649-0d6f-40c6-a2f7-ebdad92c0448" />
 
 ## 🧊🏺🍸 Positive Labels 🍸🏺🧊
+
+A positive label is the target outcome that represents the presence of a specific condition, event, or class of interest. It is the “yes” class in a binary classification problem, or one of the target classes in multi-class tasks. The model’s main goal is often to correctly predict when this positive condition exists.
+
+
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/1afe259d-7e77-405b-97d4-5f60796c2918" />
 
 ## 🧊🏺🍸 Negative Labels 🍸🏺🧊
