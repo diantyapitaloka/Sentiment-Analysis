@@ -34,6 +34,7 @@ This shows that the model developed has good performance in classifying sentimen
 ## 🧊🏺🍸 Rule of thumb 🍸🏺🧊
 - Comprehensive Data Preprocessing and Noise Reduction The program must include a dedicated preprocessing pipeline to handle text normalization, including the removal of HTML tags, URLs, and special characters. This stage should also implement lemmatization or stemming to reduce words to their root forms, ensuring the model focuses on core semantic meanings.
 - Handling Class Imbalance and Data Distribution The developer must demonstrate a strategy for managing datasets where one sentiment category significantly outweighs the others to prevent model bias. Techniques such as oversampling the minority class or adjusting class weights within the algorithm should be applied to maintain classification fairness.
+- Implementation of Advanced Feature Vectorization Beyond simple text inputs, the program should utilize sophisticated feature extraction methods like TF-IDF or pre-trained Word Embeddings to capture linguistic context. These methods transform unstructured text into high-dimensional numerical vectors that allow the machine learning model to recognize complex patterns.
 
 ## 🧊🏺🍸 Submission 🍸🏺🧊
 The submission consists of developing and evaluating a deep learning–based classification system that fulfills the following criteria:
