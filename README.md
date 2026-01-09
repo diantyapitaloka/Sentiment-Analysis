@@ -31,6 +31,9 @@ The choice of this training algorithm must be in accordance with the objectives 
 **Criteria 4**: The accuracy of the testing set obtained must reach at least 85%
 This shows that the model developed has good performance in classifying sentiment from the data provided.
 
+## 🧊🏺🍸 Rule of thumb 🍸🏺🧊
+- Comprehensive Data Preprocessing and Noise Reduction The program must include a dedicated preprocessing pipeline to handle text normalization, including the removal of HTML tags, URLs, and special characters. This stage should also implement lemmatization or stemming to reduce words to their root forms, ensuring the model focuses on core semantic meanings.
+
 ## 🧊🏺🍸 Submission 🍸🏺🧊
 The submission consists of developing and evaluating a deep learning–based classification system that fulfills the following criteria:
 
