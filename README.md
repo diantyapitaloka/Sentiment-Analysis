@@ -6,9 +6,7 @@
 - Class Imbalance Mitigation
 The dataset should maintain a balanced distribution across all sentiment categories to prevent the model from developing a bias toward the majority class. If certain emotions are underrepresented, techniques like oversampling, undersampling, or Synthetic Minority Over-sampling Technique (SMOTE) must be applied to ensure equitable learning.
 - Contextual Sarcasm Detection. A robust system needs to account for linguistic nuances such as sarcasm, irony, and double negatives that often flip the literal meaning of a sentence. Incorporating context-aware embeddings like BERT or RoBERTa can help the model capture these subtle shifts in sentiment that simple keyword-based models often miss.
-
-Domain-Specific Lexicons
-The training process should ideally incorporate domain-specific dictionaries to handle jargon that carries different sentiment weights in different industries. For example, the word "predictable" might be negative in a movie review but highly positive in the context of medical equipment or financial software.
+- Domain-Specific Lexicons. The training process should ideally incorporate domain-specific dictionaries to handle jargon that carries different sentiment weights in different industries. For example, the word "predictable" might be negative in a movie review but highly positive in the context of medical equipment or financial software.
 
 Hyperparameter Optimization
 Systematic tuning of hyperparameters—such as learning rates, dropout ratios, and batch sizes—is essential to maximize the model's predictive accuracy. Utilizing automated search strategies like Random Search or Bayesian Optimization can significantly reduce the time spent finding the "sweet spot" for model performance.
