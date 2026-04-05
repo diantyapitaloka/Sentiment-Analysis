@@ -9,9 +9,7 @@ The dataset should maintain a balanced distribution across all sentiment categor
 - Domain-Specific Lexicons. The training process should ideally incorporate domain-specific dictionaries to handle jargon that carries different sentiment weights in different industries. For example, the word "predictable" might be negative in a movie review but highly positive in the context of medical equipment or financial software.
 - Hyperparameter Optimization. Systematic tuning of hyperparameters—such as learning rates, dropout ratios, and batch sizes—is essential to maximize the model's predictive accuracy. Utilizing automated search strategies like Random Search or Bayesian Optimization can significantly reduce the time spent finding the "sweet spot" for model performance.
 - Cross-Validation Strategies. To ensure the model’s reliability, a k-fold cross-validation approach should be implemented rather than a single train-test split. This method provides a more comprehensive evaluation of how the model generalizes to unseen data, reducing the likelihood of overfitting to a specific subset of the dataset.
-
-Real-time Processing Latency
-For applications like social media monitoring or live customer support, the inference speed of the model must be optimized to provide near-instantaneous feedback. This may require model quantization or pruning to reduce the computational footprint without significantly sacrificing sentiment classification accuracy.
+- Real-time Processing Latency. For applications like social media monitoring or live customer support, the inference speed of the model must be optimized to provide near-instantaneous feedback. This may require model quantization or pruning to reduce the computational footprint without significantly sacrificing sentiment classification accuracy.
 
 Multilingual Support and Adaptation
 The system should be evaluated on its ability to handle multiple languages or code-switching, which is common in global social media environments. Leveraging multilingual pre-trained models allows the system to transfer sentiment knowledge from high-resource languages like English to lower-resource languages.
