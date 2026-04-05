@@ -3,6 +3,29 @@
 - The program including data cleansing and some criteria to match the requirement. Sentiment Analysis, also known as opinion mining, is a field within Natural Language Processing (NLP) that aims to determine the attitude or emotional tone expressed in a piece of text. Sentiment analysis typically involves classifying text into categories such as positive, negative, or neutral by leveraging machine learning or deep learning models. Before building these models, data cleansing plays a crucial role to ensure the quality and consistency of the dataset. Common preprocessing steps include removing noise (such as punctuation, HTML tags, and stopwords), normalizing text through case-folding and lemmatization, and handling duplicated or missing data. These steps help the model understand the underlying patterns more effectively and reduce the risk of misclassification of analysis.
 - Sentiment Analysis — also known as opinion mining — is a subfield of Natural Language Processing (NLP) and Artificial Intelligence (AI) that focuses on identifying, extracting, and interpreting the emotional tone or subjective information expressed in text, speech, or other communication. Its main purpose is to determine whether the sentiment conveyed is positive, negative, or neutral, but advanced systems may also detect more detailed emotions such as joy, anger, sadness, or sarcasm.
 - Sentiment analysis works by using various AI techniques such as machine learning, deep learning, and linguistic rule-based approaches to analyze words, expressions, and context. It plays a crucial role in real-world applications, including customer feedback evaluation, social media monitoring, brand reputation analysis, product reviews classification, political opinion tracking, and automated customer support. By transforming unstructured text data into structured insights, sentiment analysis helps organizations understand public perception, improve decision-making, and enhance user experience at a large scale.
+- Class Imbalance Mitigation
+The dataset should maintain a balanced distribution across all sentiment categories to prevent the model from developing a bias toward the majority class. If certain emotions are underrepresented, techniques like oversampling, undersampling, or Synthetic Minority Over-sampling Technique (SMOTE) must be applied to ensure equitable learning.
+
+Contextual Sarcasm Detection
+A robust system needs to account for linguistic nuances such as sarcasm, irony, and double negatives that often flip the literal meaning of a sentence. Incorporating context-aware embeddings like BERT or RoBERTa can help the model capture these subtle shifts in sentiment that simple keyword-based models often miss.
+
+Domain-Specific Lexicons
+The training process should ideally incorporate domain-specific dictionaries to handle jargon that carries different sentiment weights in different industries. For example, the word "predictable" might be negative in a movie review but highly positive in the context of medical equipment or financial software.
+
+Hyperparameter Optimization
+Systematic tuning of hyperparameters—such as learning rates, dropout ratios, and batch sizes—is essential to maximize the model's predictive accuracy. Utilizing automated search strategies like Random Search or Bayesian Optimization can significantly reduce the time spent finding the "sweet spot" for model performance.
+
+Cross-Validation Strategies
+To ensure the model’s reliability, a k-fold cross-validation approach should be implemented rather than a single train-test split. This method provides a more comprehensive evaluation of how the model generalizes to unseen data, reducing the likelihood of overfitting to a specific subset of the dataset.
+
+Real-time Processing Latency
+For applications like social media monitoring or live customer support, the inference speed of the model must be optimized to provide near-instantaneous feedback. This may require model quantization or pruning to reduce the computational footprint without significantly sacrificing sentiment classification accuracy.
+
+Multilingual Support and Adaptation
+The system should be evaluated on its ability to handle multiple languages or code-switching, which is common in global social media environments. Leveraging multilingual pre-trained models allows the system to transfer sentiment knowledge from high-resource languages like English to lower-resource languages.
+
+Explainability and Interpretability
+It is vital to integrate "Explainable AI" (XAI) tools, such as SHAP or LIME, to visualize which specific words or phrases most heavily influenced a particular sentiment score. This transparency builds trust with stakeholders and helps developers debug why certain samples were misclassified during the testing phase.
 
 Classified as below:
 
