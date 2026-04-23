@@ -20,6 +20,7 @@ The dataset should maintain a balanced distribution across all sentiment categor
 - Entity-Centric Sentiment Analysis. The model should distinguish between sentiments directed at different entities mentioned within the same sentence. This prevents the system from confusing a positive comment about a competitor with a positive comment about the brand being monitored.
 - Confidence Score Calibration. Every classification output should be accompanied by a probability score reflecting the model’s certainty in its prediction. This allows high-stakes applications to flag low-confidence results for human review, ensuring higher overall system reliability.
 - Noise Robustness to Typos. Preprocessing should include a fuzzy matching or autocorrect layer to handle the informal grammar and spelling errors common in social media data. This ensures that a sentiment is not lost simply because a user misspelled a crucial descriptive keyword.
+- Ethical Bias Auditing. Periodic evaluations should be conducted to ensure the model does not associate specific demographic markers or dialects with inherently negative sentiment. Implementing fairness constraints helps mitigate algorithmic prejudice and ensures equitable performance across different user groups.
 
 Classified as below:
 
