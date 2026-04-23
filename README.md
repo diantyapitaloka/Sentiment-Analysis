@@ -15,6 +15,7 @@ The dataset should maintain a balanced distribution across all sentiment categor
 - Dynamic Data Augmentation. Beyond static cleansing, the system should use back-translation or synonym replacement to artificially expand the training set for underrepresented sentiments. This enhances the model's ability to recognize diverse linguistic structures while maintaining the original emotional intent of the text.
 - Aspect-Based Sentiment Extraction. Rather than assigning a single score to an entire paragraph, the system should identify specific features or "aspects" mentioned within the text. This allows a user to see that a customer might love a product’s hardware quality but deeply dislike its software interface.
 - Temporal Sentiment Tracking. The architecture should include a time-series component to monitor how public opinion evolves over specific weeks or months. By analyzing these shifts, organizations can identify if a negative trend is a localized incident or a growing systemic issue.
+- Handling Negation and Intensifiers. Specialized logic must be implemented to correctly process how words like "not," "very," or "barely" modify the sentiment of the following adjective. Failing to account for these linguistic "shifters" can lead to the model completely misinterpreting the user's actual stance.
 
 Classified as below:
 
