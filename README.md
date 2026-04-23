@@ -17,6 +17,7 @@ The dataset should maintain a balanced distribution across all sentiment categor
 - Temporal Sentiment Tracking. The architecture should include a time-series component to monitor how public opinion evolves over specific weeks or months. By analyzing these shifts, organizations can identify if a negative trend is a localized incident or a growing systemic issue.
 - Handling Negation and Intensifiers. Specialized logic must be implemented to correctly process how words like "not," "very," or "barely" modify the sentiment of the following adjective. Failing to account for these linguistic "shifters" can lead to the model completely misinterpreting the user's actual stance.
 - Emoji and Emoticon Integration. Modern sentiment analysis must treat emojis as high-value tokens rather than noise to be stripped away during cleansing. These visual symbols often provide the most direct clue to a user’s emotional state, especially when the accompanying text is ambiguous.
+- Entity-Centric Sentiment Analysis. The model should distinguish between sentiments directed at different entities mentioned within the same sentence. This prevents the system from confusing a positive comment about a competitor with a positive comment about the brand being monitored.
 
 Classified as below:
 
