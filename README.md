@@ -13,6 +13,7 @@ The dataset should maintain a balanced distribution across all sentiment categor
 - Multilingual Support and Adaptation. The system should be evaluated on its ability to handle multiple languages or code-switching, which is common in global social media environments. Leveraging multilingual pre-trained models allows the system to transfer sentiment knowledge from high-resource languages like English to lower-resource languages.
 - Explainability and Interpretability. It is vital to integrate "Explainable AI" (XAI) tools, such as SHAP or LIME, to visualize which specific words or phrases most heavily influenced a particular sentiment score. This transparency builds trust with stakeholders and helps developers debug why certain samples were misclassified during the testing phase.
 - Dynamic Data Augmentation. Beyond static cleansing, the system should use back-translation or synonym replacement to artificially expand the training set for underrepresented sentiments. This enhances the model's ability to recognize diverse linguistic structures while maintaining the original emotional intent of the text.
+- Aspect-Based Sentiment Extraction. Rather than assigning a single score to an entire paragraph, the system should identify specific features or "aspects" mentioned within the text. This allows a user to see that a customer might love a product’s hardware quality but deeply dislike its software interface.
 
 Classified as below:
 
