@@ -12,6 +12,7 @@ The dataset should maintain a balanced distribution across all sentiment categor
 - Real-time Processing Latency. For applications like social media monitoring or live customer support, the inference speed of the model must be optimized to provide near-instantaneous feedback. This may require model quantization or pruning to reduce the computational footprint without significantly sacrificing sentiment classification accuracy.
 - Multilingual Support and Adaptation. The system should be evaluated on its ability to handle multiple languages or code-switching, which is common in global social media environments. Leveraging multilingual pre-trained models allows the system to transfer sentiment knowledge from high-resource languages like English to lower-resource languages.
 - Explainability and Interpretability. It is vital to integrate "Explainable AI" (XAI) tools, such as SHAP or LIME, to visualize which specific words or phrases most heavily influenced a particular sentiment score. This transparency builds trust with stakeholders and helps developers debug why certain samples were misclassified during the testing phase.
+- Dynamic Data Augmentation. Beyond static cleansing, the system should use back-translation or synonym replacement to artificially expand the training set for underrepresented sentiments. This enhances the model's ability to recognize diverse linguistic structures while maintaining the original emotional intent of the text.
 
 Classified as below:
 
