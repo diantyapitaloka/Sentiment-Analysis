@@ -33,7 +33,7 @@ Classified as below:
 
 - In building a sentiment analysis system, datasets need to meet several criteria to ensure the model's reliability and performance. This includes having a sufficiently large dataset—ideally above 10,000 samples—to allow for better generalization and training stability.
 - Additionally, having at least three sentiment classes provides a more nuanced understanding of emotional tone compared to simple binary classification.
-- Several training schemes can also be experimented with, such as varying the deep learning architectures (e.g., LSTM, CNN, Transformer), altering feature extraction methods, or using different data splitting strategies. These experiments allow researchers to evaluate model robustness and identify the most efficient approach.
+- Several training schemes can also be experimented with, such as varying the deep learning architectures (e.g., LSTM, CNN, Transformer), hence altering feature extraction methods, or using different data splitting strategies. These experiments allow researchers to evaluate model robustness and identify the most efficient approach.
 
 ## 🧊🏺🍸 Criteria of Program 🍸🏺🧊
 Criteria of Program refers to the specific standards, requirements, or indicators used to evaluate whether a program is designed and implemented effectively. These criteria help assess the quality of the program’s inputs (resources, participants), processes (methods, activities), outputs (immediate results), and outcomes (long-term impact). By setting clear program criteria, organizations can ensure consistent measurement, maintain quality, and determine whether the program successfully achieves its intended goals.
