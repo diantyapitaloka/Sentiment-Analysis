@@ -61,7 +61,7 @@ This shows that the model developed has good performance in classifying sentimen
 - Validation Using Robust Performance Metrics In addition to achieving the required accuracy, the model must be evaluated using a confusion matrix to visualize errors across positive, negative, and neutral labels. Detailed metrics such as Precision, Recall, and the F1-Score must be reported to verify that the 85% accuracy target is consistent across all classes.
 
 ## 🧊🏺🍸 Submission 🍸🏺🧊
-The submission consists of developing and evaluating a deep learning–based classification system that fulfills the following criteria:
+The submission consists of developing and evaluating a deep learning–based classification system that to fulfills the following criteria:
 
 1. Using deep learning algorithms.
 2. Accuracy on training set and testing set above 92%.
